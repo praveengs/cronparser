@@ -16,7 +16,7 @@ command       /usr/bin/find
 ```
 
 ## How to run the application
-The application is build using gradle. The minimum jdk requirement is JDK11.
+The application is built using gradle. The minimum jdk requirement is JDK11.
 
 ### Build the application
 #### Pre-requisites

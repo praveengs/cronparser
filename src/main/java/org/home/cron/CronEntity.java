@@ -1,6 +1,6 @@
 package org.home.cron;
 
-public enum CronPart {
+public enum CronEntity {
     MINUTE(0, 59, "minute"),
     HOUR(0, 24, "hour"),
     DAY_OF_MONTH(1, 31, "day of month"),
@@ -12,14 +12,13 @@ public enum CronPart {
     private int high;
     private final String name;
 
-    CronPart(int low, int high, String name) {
-
+    CronEntity(int low, int high, String name) {
         this.low = low;
         this.high = high;
         this.name = name;
     }
 
-    CronPart(String name) {
+    CronEntity(String name) {
         this.name = name;
     }
 
